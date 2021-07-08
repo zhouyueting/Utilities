@@ -1,6 +1,0 @@
-.ios-bottom {
-  height: 0;
-  height: constant(safe-area-inset-bottom); /* 兼容 iOS < 11.2 */
-  height: env(safe-area-inset-bottom); /* 兼容 iOS >= 11.2 */
-  max-height: 24px;
-}
